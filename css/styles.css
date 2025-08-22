@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    background-color: grey;
+    height: 250px;
+    width: 100vw;
+}
