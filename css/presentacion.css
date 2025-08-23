@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;   
+}
+
+.presentacion {
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.contenido-presentacion {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.texto-presentacion {
+  flex: 1;
+  max-width: 600px;
+}
+
+.contenido-presentacion img {
+  width: 290px;
+  max-width: 100%;
+  border-radius: 50%;
+  margin-top: 90px;
+  object-fit: cover;
+  height: auto;
+}

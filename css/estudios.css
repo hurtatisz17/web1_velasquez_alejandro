@@ -1,0 +1,36 @@
+/* ESTUDIOS */
+.estudios {
+  padding: 3rem 2rem;
+  background-color: #3d3c3c;
+}
+
+.contenido-estudios {
+  align-items: center;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-estudios h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contenido-estudios p {
+  max-width: 600px;
+  line-height: 1.6;
+}
+.contenido-estudios img {
+  width: 290px;
+  max-width: 100%;
+  border-radius: 50%;
+  margin-top: 90px;
+  object-fit: cover;
+  height: auto; 
+}
+
+.imagen-ajustada{
+width: 100%;   
+  height: auto;  
+  display: block; 
+}
