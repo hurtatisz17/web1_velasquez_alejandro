@@ -1,0 +1,38 @@
+.contenedor-lenguajes {
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  height: 300px;    
+}
+
+.imagen-lenguajes {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30%;
+}
+
+.contenedor-copercar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.imagen-copercar{
+  height: 100%;
+  width: 350px;
+  display: block; 
+  border-radius: 20%;
+}
+
+.contenedor-videos{
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+.videos{
+  height: 100%;
+  width: 300px;
+  display: block;
+
+}
