@@ -1,0 +1,43 @@
+#contacto{ 
+padding: 2rem 2rem;
+background-color: #3d3c3c;
+}
+.contenido-contacto {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contenido-contacto h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contenido-contacto p {
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.contacto a{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding-left: 5rem;
+    margin-top: 20px;
+}
+.imagen-contacto{
+    width: 40%;
+    margin-left: 200px;
+      height: auto;  
+  display: block; 
+}
+
+@media (max-width: 769px) {
+    .contenido-contacto{
+        display: block;
+        flex-direction: column;
+    }
+    .imagen-contacto{
+        margin-top: 2rem;
+    }
+}

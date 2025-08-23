@@ -27,12 +27,25 @@
 
 .contenedor-videos{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 350px;
+  align-items: center;
+  height: auto;
 }
 .videos{
   height: 100%;
   width: 300px;
   display: block;
 
+}
+
+.frase{
+    padding: 100px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.frase p{
+    text-align: center;
 }
